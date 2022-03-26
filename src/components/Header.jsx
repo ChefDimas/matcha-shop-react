@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.sass";
+import "../style/header.sass";
 
 class Header extends React.Component {
   render() {
