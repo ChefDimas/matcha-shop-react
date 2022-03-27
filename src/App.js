@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+import WelcomePage from "./pages/WelcomePage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <WelcomePage />
     </div>
   );
 }
