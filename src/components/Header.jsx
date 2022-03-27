@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../style/header.sass";
 
 function Header() {
@@ -12,8 +13,10 @@ function Header() {
             <div className="navbar-item">Stock</div>
             <div className="navbar-item">About It</div>
           </div>
-          {/* IMG Logo */}
-          <img src="" alt="" className="logo" />
+          {/*Logo */}
+          <div>
+            <FontAwesomeIcon icon="fa-solid fa-seedling"></FontAwesomeIcon>
+          </div>
           {/* Right Part */}
           <div className="right-navbar">
             <div className="navbar-item">Reviews</div>
