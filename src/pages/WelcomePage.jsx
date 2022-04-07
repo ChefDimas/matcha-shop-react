@@ -1,6 +1,5 @@
-import React from "react";
 import Header from "../components/Header";
-import welcomepage from "../style/welcomepage.sass";
+import "../style/welcomepage.sass";
 
 function WelcomePage() {
   return (
